@@ -123,7 +123,17 @@ public class CalculatorActivity extends Activity implements OnClickListener {
 			et_input.setText("0");
 			break;
 		case R.id.btn_del:
-			// et_input.setText(text)
+			// because we add blank space around the operator
+			// when we click the del button, we need to check
+			// whether the last character is operator or not.
+			// if the last character is an operator we alse need
+			// to remove all these space added around the operator.
+			// otherwise, we only need to remove the digit.
+			if(str.charAt(str.length() - 1) == ' ' && str.length() >= 3) {
+				et_input.setText(str.substring(0, str.length() - 3));
+			} else {
+				et_input.setText(str.substring(0, str.length() - 1));
+			}
 			break;
 		case R.id.btn_equal:
 			getResult();
