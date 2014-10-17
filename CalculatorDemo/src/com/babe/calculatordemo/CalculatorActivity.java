@@ -136,12 +136,23 @@ public class CalculatorActivity extends Activity implements OnClickListener {
 			}
 			break;
 		case R.id.btn_equal:
-			getResult();
+//			getResult();
+			getResultByUsingExpCalc();
 			clear_flag = true;
 			break;
 		default:
 			break;
 		}
+	}
+	
+
+	private void getResultByUsingExpCalc() {
+		String str = et_input.getText().toString();
+		
+		ExpCalc ec = new ExpCalc();
+		double result = ec.calcExp(str);
+		
+		et_input.setText(Double.toString(result));
 	}
 
 	private void getResult() {
