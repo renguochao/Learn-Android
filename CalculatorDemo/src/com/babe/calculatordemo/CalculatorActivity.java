@@ -1,14 +1,15 @@
-package com.babe.caculatordemo;
+package com.babe.calculatordemo;
 
 import android.app.Activity;
 import android.os.Bundle;
+
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class CaculatorActivity extends Activity implements OnClickListener {
+public class CalculatorActivity extends Activity implements OnClickListener {
 	private EditText et_input;
 
 	private Button btn_cancel;
@@ -36,7 +37,7 @@ public class CaculatorActivity extends Activity implements OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_caculator);
+		setContentView(R.layout.activity_calculator);
 
 		btn_0 = (Button) findViewById(R.id.btn_zero);
 		btn_1 = (Button) findViewById(R.id.btn_one);

@@ -12,9 +12,12 @@
     <EditText
         android:id="@+id/input"
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="120dp"
         android:background="@drawable/white_bg"
         android:editable="false"
+        android:textSize="30sp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
         android:gravity="right|bottom" />
 
     <LinearLayout
@@ -28,48 +31,48 @@
             android:id="@+id/btn_cancel"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/cancel"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_del"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/del"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_divide"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/divide"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_multiply"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/multiply"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -83,48 +86,48 @@
             android:id="@+id/btn_seven"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/seven"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_eight"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/eight"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_nine"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/nine"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_minus"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:layout_marginLeft="20dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/minus"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -138,48 +141,48 @@
             android:id="@+id/btn_four"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/four"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_five"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/five"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_six"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/six"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_plus"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/white_selector"
             android:gravity="right|bottom"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
             android:text="@string/plus"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -204,36 +207,36 @@
                     android:id="@+id/btn_one"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:paddingRight="10dp"
-            android:paddingBottom="10dp"
                     android:background="@drawable/white_selector"
                     android:gravity="right|bottom"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
                     android:text="@string/one"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/btn_two"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_marginLeft="20dp"
-                    android:paddingRight="10dp"
-            android:paddingBottom="10dp"
                     android:background="@drawable/white_selector"
                     android:gravity="right|bottom"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
                     android:text="@string/two"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/btn_three"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_marginLeft="20dp"
-                    android:paddingRight="10dp"
-            android:paddingBottom="10dp"
                     android:background="@drawable/white_selector"
                     android:gravity="right|bottom"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
                     android:text="@string/three"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -251,7 +254,7 @@
                     android:paddingBottom="10dp"
                     android:paddingRight="10dp"
                     android:text="@string/zero"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/btn_dot"
@@ -263,7 +266,7 @@
                     android:paddingBottom="10dp"
                     android:paddingRight="10dp"
                     android:text="@string/dot"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -277,7 +280,7 @@
             android:paddingBottom="10dp"
             android:paddingRight="10dp"
             android:text="@string/equal"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
 </LinearLayout>
